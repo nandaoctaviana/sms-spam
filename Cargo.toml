@@ -1,0 +1,15 @@
+[package]
+name = "sms_spam_classification"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust-bert = { git = "https://github.com/nandaoctaviana/rust-bert.git" }
+rust_tokenizers = "7.0.0"
+tch = "0.17.0"
+anyhow = "1.0"
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+indicatif = "0.18.3"
+console = "0.16.1"
